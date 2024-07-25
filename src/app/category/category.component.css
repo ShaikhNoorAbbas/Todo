@@ -26,5 +26,12 @@
 }
 
 .bg-danger {
-  
+  background-color: #e9eeff !important;
+  color: #f04141;
 }
+
+.cat-tools {
+  display: none;
+}
+
+
