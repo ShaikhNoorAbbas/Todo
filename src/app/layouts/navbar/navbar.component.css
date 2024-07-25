@@ -1,0 +1,23 @@
+header {
+  height: 100px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
+  -webkit-box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
+  -moz-box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
+}
+
+.brand {
+  background-color: #f3f6ff;
+  padding: 10px 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}

@@ -1,0 +1,9 @@
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.formContainer input[type="text"] {
+  outline: 1px solid gray;
+}
