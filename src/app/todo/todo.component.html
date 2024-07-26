@@ -1,8 +1,55 @@
 <div class="row justify-content-center md-3">
   <div class="col-md-4 text-center">
-    <h1>TODO CATEGORIES</h1>
+    <h1 class="black-text-shadow">TODOS</h1>
     <p class="text-info">
       Lorem ipsum dolor sit amet consectetur adipisicing elit.
     </p>
+  </div>
+</div>
+
+<div>
+  <form class="formContainer">
+    <div class="form-group">
+      <input
+        type="todoText"
+        name="todo"
+        placeholder="Add New Todos"
+        class="form-control box-shadow"
+      />
+    </div>
+    <button type="submit" class="btn btn-primary btn-todo btn-block box-shadow">
+      ADD
+    </button>
+  </form>
+</div>
+
+<!-- Todo Cards -->
+
+<div class="row justify-content-center todo-list">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body">
+        <!-- flex container -->
+        <div class="flexContainer">
+          <!-- left -->
+          <div class="text-secondary">
+            <i class="far fa-circle text-danger"></i>
+            <i class="fas fa-check text-success"></i>
+            New Todo
+          </div>
+          <!-- right -->
+          <div>
+            <i class="far fa-check-circle text-success"></i>
+            <i class="far fa-times-circle text-danger"></i>
+            <div class="todo-tools">
+              <small>
+                <i class="fas fa-pencil-alt text-warning"></i>
+                <i class="fa s fa-trash text-danger"></i>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

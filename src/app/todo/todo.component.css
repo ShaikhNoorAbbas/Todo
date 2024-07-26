@@ -1,0 +1,47 @@
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-list {
+  margin-top: 50px;
+}
+
+.todo-list .card {
+  margin-top: 5px;
+  background-color: #f8f8f8;
+}
+
+.todo-tools {
+  display: none;
+}
+
+.todo-tools i {
+  margin: 0px 8px;
+  cursor: pointer;
+}
+
+.todo-list .card:hover {
+  margin-inline-start: -30px;
+  cursor: pointer;
+  width: 600px;
+  height: 80px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  transition: all ease-in 1s;
+  -webkit-transition: all ease-in 1s;
+  -moz-transition: all ease-in 1s;
+  -ms-transition: all ease-in 1s;
+  -o-transition: all ease-in 1s;
+  box-shadow: 1px 1px 1px black;
+  border: 0.9px solid gray;
+}
+
+.todo-list .card:hover .todo-tools {
+  display: inline-block;
+}
+
+i {
+  margin-right: 20px;
+}
