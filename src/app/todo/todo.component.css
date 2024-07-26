@@ -29,11 +29,11 @@
   height: 80px;
   border-top-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  transition: all ease-in 1s;
-  -webkit-transition: all ease-in 1s;
-  -moz-transition: all ease-in 1s;
-  -ms-transition: all ease-in 1s;
-  -o-transition: all ease-in 1s;
+  transition: all ease-in 800ms;
+  -webkit-transition: all ease-in 800ms;
+  -moz-transition: all ease-in 800ms;
+  -ms-transition: all ease-in 800ms;
+  -o-transition: all ease-in 800ms;
   box-shadow: 1px 1px 1px black;
   border: 0.9px solid gray;
 }
